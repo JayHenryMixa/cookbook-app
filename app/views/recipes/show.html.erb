@@ -27,6 +27,6 @@
   <div>
   <%= link_to "Home", "/" %>
   <%= link_to "Edit", "/recipes/#{@recipe.id}/edit" %>
-  <%= link_to "Delete", "/recipes/#{@recipe.id}",
+  <%= link_to "Delete", "/recip#{@recipe.id}",
   method: :delete, data: {confirm: "Are you sure?"} %>
   </div>
